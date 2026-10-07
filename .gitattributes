@@ -1,0 +1,11 @@
+# Language detection rules
+node_modules/* linguist-vendored 
+*.yaml linguist-detectable=false
+
+*.map linguist-generated
+
+*.rs linguist-detectable
+public/*.html linguist-vendored
+*.ico binary
+build/* linguist-vendored
+*.gif binary
